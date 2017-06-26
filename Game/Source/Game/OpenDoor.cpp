@@ -19,7 +19,7 @@ UOpenDoor::UOpenDoor()
 // Called when the game starts
 void UOpenDoor::BeginPlay()
 {
-	//GetWorld 不用许指针指向不完整的类类型 为什么？？？
+	//GetWorld() 不允许指针指向不完整的类类型 为什么？？？我include了"Components/ActorComponent.h"啊
 	OpenEr = GetWorld()->GetFirstPlayerController()->GetCharacter();
 }
 void UOpenDoor::OpenDoor()
