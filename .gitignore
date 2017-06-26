@@ -1,0 +1,9 @@
+*/Intermediate
+*/Binaries
+*/DeriverdDataCache
+*/Intermediate
+*/Saved
+*.db
+################
+Game/.vs/
+Game/Content/
