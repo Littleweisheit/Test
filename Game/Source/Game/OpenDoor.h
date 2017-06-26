@@ -41,6 +41,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 
+	UPROPERTY(EditAnywhere)
 	ACharacter* OpenEr;
 	
 		
